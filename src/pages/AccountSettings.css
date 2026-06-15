@@ -1,0 +1,102 @@
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #f9f9f9;
+}
+
+.settings-header {
+  padding: 48px 20px 16px;
+  background: #ffffff;
+}
+
+.settings-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.3px;
+}
+
+.settings-divider {
+  height: 1px;
+  background: #e8e8e8;
+  width: 100%;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 20px;
+  background: transparent;
+}
+
+.avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.camera-badge {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 24px;
+  height: 24px;
+  background: #6c47ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.camera-badge:hover {
+  background: #5a35e8;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.2px;
+}
+
+.profile-email {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 400;
+}
+
+.bio-section {
+  padding: 10px 20px 20px;
+  background: transparent;
+}
+
+.bio-text {
+  font-size: 13.5px;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.settings-divider-dashed {
+  border-top: 1.5px dashed #dddddd;
+  width: 100%;
+  margin: 10px 0;
+}

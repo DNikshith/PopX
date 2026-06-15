@@ -1,0 +1,77 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0 24px 48px;
+  background: #f9f9f9;
+}
+
+.welcome-content {
+  margin-bottom: 32px;
+}
+
+.welcome-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.welcome-subtitle {
+  font-size: 15px;
+  color: #888888;
+  line-height: 1.6;
+  max-width: 260px;
+}
+
+.welcome-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+  letter-spacing: 0.1px;
+}
+
+.btn-primary {
+  background: #6c47ff;
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(108, 71, 255, 0.35);
+}
+
+.btn-primary:hover {
+  background: #5a35e8;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(108, 71, 255, 0.45);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background: #e8e4ff;
+  color: #6c47ff;
+  border: 1.5px solid #d0c8ff;
+}
+
+.btn-secondary:hover {
+  background: #ddd6ff;
+  transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
